@@ -1,0 +1,45 @@
+.emp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    
+}
+
+.emp h2{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+
+.spag{
+    width: 85vw;
+    height: 50vh;
+    background: url(../../src/component/DISNEY.UK/blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spag h3{
+    width: 22vw;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.mybutton{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}

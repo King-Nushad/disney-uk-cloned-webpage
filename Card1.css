@@ -1,0 +1,37 @@
+/* .display-card{
+    padding: 50px 50px;
+}
+.display-card{
+    font-weight: 500;
+    font-size: 2rem;
+}  */
+.display-card{
+    display: flex;
+    height: 30vh;
+    gap: 50px;
+    margin-top: 15px;
+    background-color: whitesmoke;
+}
+.display-card{
+    height: 200px;
+    transition: all 0.1s ease-in-out;
+}
+
+.show-card h5{
+    font-weight: 500;
+    font-size: 2rem;
+}
+.show-card img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+.show-card img:hover{
+    transform: scale(0.9);
+    border-radius: 1px solid hotpink;
+}
+
+button{
+    font-weight: 500;
+    font-size: x-large;
+}
